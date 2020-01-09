@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.search{
+    margin: 15px;
+}
+
+.main-box{
+    position: relative;
+    
+    
+}
+
+
+.img-box img{
+    height: 495px;
+    
+}
+.content-box{
+    
+    position: absolute;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    
+    
+}
+.main-box:hover .content-box {
+    display: block;
+        top: 0px;
+        height: 100%;
+        
+}
+.data .row{
+    margin-bottom: 25px;
+}
+.strip-header-nav{
+    
+}
+.bar{
+    
+    position: fixed;
+    top: 0px;
+    left:-280.063px;
+    bottom: 0px;
+    height: 100%;
+}
+.strip-logo,.strip-social-icon,.strip-toggel-menu{
+    height: 33.333%;
+
+}
+.strip-social-icon{
+    margin-top: 100px;
+    cursor: pointer;
+}
+.strip-toggel-menu{
+    cursor: pointer;
+}
+.nav-tab-menu{
+    background-color: black;
+    color: white;
+    
+    
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+   
+}
+.nav-social-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item,.nav-social-item{
+    height: 50%;
+}
+.nav-social-item{
+    
+    margin-top: 180px;
+    
+}
+.nav-item{
+    
+}
+.item1,.item2,.item3,.item5,.item6{
+    
+    margin-top:200px;
+    opacity: 0;
+    
+}
+.layer{
+    
+}
